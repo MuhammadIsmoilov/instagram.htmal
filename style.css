@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.club img{
+    width: 350px;
+    border: 5px solid orange;
+    border-radius: 50%;
+}
+.tochka{
+    margin-top: 10px;
+}
+.follow{
+    border: 2px solid blue;
+    background-color: blue;
+    padding: 10px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.sms{
+    border: 2px solid black;
+    width: 220px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.add i{
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+}
+.instagram , .mainclub{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.instagram{
+    margin-left: -25px;
+    position: sticky;
+    left: 0;
+}
+.mainclub{
+    width: 1000px;
+    margin-top: 50px;
+   
+   
+}
+.tj h3{
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 10px;
+}
+.numbers{
+    display: flex;
+   margin-left: 385px;
+   margin-top: -300px;
+   justify-content: space-around;
+   width: 390px;
+   
+}
+.numbers h4{
+    font-size: 1.3em;
+}
+a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: blue;
+}
+.about{
+    margin-left: 385px;
+    margin-top: 30px;
+}
+.surati1 img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.surati2 img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.surati3 img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.surati4 img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.surati5 img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.surati6 img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.surati7 img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.surato{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 110px;
+    text-align: center;
+    margin-left: 10px;
+}
+.surato h5{
+  margin-left: 40px;
+  font-size: 1em;
+}
+.icons {
+    width: 300px;
+    height: 830px;
+    border: 2px solid grey;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-top: 1px;
+    font-size: 15px;
+    
+}
+.icons h1:hover{
+    
+    background-color: grey;
+    
+}
+.icons h1{
+    margin-top: 25px;
+    padding: 3px;
+}
+
+.content1{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 1.5em;
+}
+.reels1{
+    margin-left: 200px;
+}
+.reels2{
+    margin-left: 350px;
+}
+.reels3{
+    margin-left: 350px;
+}
+
+.asosi2{
+    width: 1200px;
+    height: 800px;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+.item{
+    color: rgb(233, 233,233);
+    margin-left: 150px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: -1;
+}
+.icons i{
+    color: black;
+}
+.back{
+    
+    width: 324px;
+    height: 324px;
+    
+}
+
+
+.own{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+.back img{
+    width: 300px;
+    height: 350px;
+}
+
+.back:hover .own{
+    transition: 0.80s;
+    z-index: 1;
+}
+.photos1, .photos2, .photos3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+   
+}
